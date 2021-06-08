@@ -1,0 +1,7 @@
+Renata,Norkienė,123456,34567890,Riga International (RIX),Vilnius (VNO),123,5, cvfbzdfb,
+Renata,Norkienė,123456,78965455,Riga International (RIX),London Stansted (STN),123,30, ,
+Renata,Norkienė,123456,78965455,Riga International (RIX),London Stansted (STN),123,30, ,
+Renata,Norkienė,123456,12345678,Riga International (RIX),Vilnius (VNO),123,20, kuku,
+,,,, ,
+Renata,Norkienė,123456,12345678,Riga International (RIX),Vilnius (VNO),123,20, kuku,
+,,,, ,
