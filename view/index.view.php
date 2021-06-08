@@ -13,18 +13,9 @@
     <section>
         <?php
         if(isset($_POST["send"])) {
-            validate($_POST);
             storeData();
         }
         ?>
-    </section>
-    <?php
-    if(isset($validation)){
-        foreach ($validation as $error) {
-            echo $error. "<br>";
-        }
-    }
-    ?>
     </section>
     <form method="post" class="mb-3" id="dispatch" name="dispatch" action="ticket.php">
             <div class="row">

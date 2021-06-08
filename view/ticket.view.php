@@ -25,15 +25,17 @@ if($bagazas>20){
     <div class="d-flex flex-row bd-highlight">
     <div class="card w-50 p-3 bg-light text-dark">
         <div class="card-body d-inline">
-            <h5 class="card-title font-weight-bold mb-5"><?php echo date("Y-m-d")?></h5>
-            <h5 class="card-title font-weight-bold"> Skrydžio numeris: <?php echo $_POST['flightNumber']?></h5>
-            <h5 class="card-title font-weight-bold mt-5"> asmens kodas: <?php echo $_POST['asmensKodas']?></h5>
+            <h5 class="card-title font-weight-bold"><?=date("Y-m-d")?></h5>
+            <h5 class="card-title font-weight-bold"> Skrydžio numeris: <?=$_POST['flightNumber']?></h5>
+            <h5 class="card-title font-weight-bold"> Asmens kodas: <?=$_POST['asmensKodas']?></h5>
+            <h5 class="card-title font-weight-bold mt-5"> Vardas, pavardė: <?=$_POST['name']." ".$_POST['lastName']?></h5>
         </div>
     </div>
     <div class="card w-5 p-3 bg-light text-dark">
         <div class="card-body d-inline p-3">
-            <h5 class="card-title font-weight-bold">Srydis iš: <?php echo $_POST['destinationFrom']?></h5>
-            <h5 class="card-title font-weight-bold">Srydis į: <?php echo $_POST['destinationTo']?></h5>
+
+            <h5 class="card-title font-weight-bold">Skrydis iš: <?=$_POST['destinationFrom']?></h5>
+            <h5 class="card-title font-weight-bold">Skrydis į: <?=$_POST['destinationTo']?></h5>
         </div>
     </div>
     <div class="card w-10 p-3 bg-secondary text-dark">
@@ -49,7 +51,6 @@ if($bagazas>20){
         <p class="card-text mt-2"><?=$_POST['kaina']?></p>
         <p class="card-text mb-5"><?=$_POST['bag']?></p>
         <p class="card-text font-weight-bold display-4"><?=$kaina?></p>
-    </div>
     </div>
 </div>
 </body>
